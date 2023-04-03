@@ -4,48 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Freedom Wheels Driving School</title>
-    <style>
-        body {
-            background-color: #161616;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            font-family: Arial, sans-serif;
-            position: relative;
-        }
+<style>
+    body {
+        background-color: #161616;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        font-family: Arial, sans-serif;
+        position: relative;
+    }
+    h1 {
+        color:  #FEFEC0;
+        font-size: 2.5em;
+        margin-bottom: 10px;
+    }
+    p {
+        color:  #FEFEC0;
+        font-size: 1.5em;
+        margin-top: 0;
+    }
+    a {
+        color:  #C8E7EC;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    .logo {
+        position: absolute;
+        width: 400px; /* Adjust the width of the logo as needed */
+        height: auto;
+    }
+    .logo.top-center {
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .content {
+        text-align: center;
+    }
+
+    /* Media query for smaller screens */
+    @media screen and (max-width: 767px) {
         h1 {
-            color:  #FEFEC0;
-            font-size: 2.5em;
-            margin-bottom: 10px;
+            font-size: 4em;
         }
         p {
-            color:  #FEFEC0;
-            font-size: 1.5em;
-            margin-top: 0;
+            font-size: 2.5em;
         }
         a {
-            color:  #C8E7EC;
-            text-decoration: none;
+            font-size: 2.5em;
         }
-        a:hover {
-            text-decoration: underline;
-        }
-        .logo {
-            position: absolute;
-            width: 400px; /* Adjust the width of the logo as needed */
-            height: auto;
-        }
-        .logo.top-center {
-            top: 0;
-            left: 50%;
-            transform: translateX(-50%);
-        }
-        .content {
-            text-align: center;
-        }
-    </style>
+    }
+</style>
 </head>
 <body>
     <img src="FreedomWheels.github.io/logo 1.svg" alt="Logo" class="logo top-center">
