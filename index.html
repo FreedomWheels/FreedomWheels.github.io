@@ -7,40 +7,63 @@
     <style>
         body {
             background-color: #171719;
-            background-image: url('FreedomWheels.github.io/logo 1.svg'); /* Replace with the path to your logo */
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
             margin: 0;
             font-family: Arial, sans-serif;
+            position: relative;
         }
         h1 {
-            color: #FEFEC0;
+            color:  #FEFEC0;
             font-size: 2.5em;
             margin-bottom: 10px;
         }
         p {
-            color: #C8E7EC;
+            color:  #FEFEC0;
             font-size: 1.5em;
             margin-top: 0;
         }
         a {
-            color: #C8E7EC;
+            color:  #FEFEC0;
             text-decoration: none;
         }
         a:hover {
             text-decoration: underline;
         }
+        .logo {
+            position: absolute;
+            width: 100px; /* Adjust the width of the logo as needed */
+            height: auto;
+        }
+        .logo.top-left {
+            top: 0;
+            left: 0;
+        }
+        .logo.top-right {
+            top: 0;
+            right: 0;
+        }
+        .logo.bottom-left {
+            bottom: 0;
+            left: 0;
+        }
+        .logo.bottom-right {
+            bottom: 0;
+            right: 0;
+        }
     </style>
 </head>
 <body>
+    <img src="path/to/your/logo.jpg" alt="Logo" class="logo top-left">
+    <img src="path/to/your/logo.jpg" alt="Logo" class="logo top-right">
+    <img src="path/to/your/logo.jpg" alt="Logo" class="logo bottom-left">
+    <img src="path/to/your/logo.jpg" alt="Logo" class="logo bottom-right">
     <div>
         <h1>Freedom Wheels Driving School</h1>
-        <p>Click This Number to Text Us: <a href="sms:+8136090552">813-609-0552</a></p>
+        <p>Text us at: <a href="sms:+8136090552">813-609-0552</a></p>
     </div>
 </body>
 </html>
+
