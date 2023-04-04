@@ -1,7 +1,6 @@
 body {
     background-color: #161616;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -27,17 +26,17 @@ a:hover {
     text-decoration: underline;
 }
 .logo {
-    position: static;
+    position: absolute;
     width: 400px;
     height: auto;
-    margin-bottom: 20px;
-    /*top: 20px;
+    top: 20px;
     left: 50%;
-    transform: translateX(-50%);*/
+    transform: translateX(-50%);
 }
 .content {
     text-align: center;
     padding-top:20%;
+    min-height: 50%;
 }
 
 /* Media query for larger screens */
@@ -66,13 +65,13 @@ a:hover {
 }
 
 /* Media query for landscape mode on smaller screens */
-@media screen and (orientation: landscape) and (max-width: 767px) {
-    .logo {
+@media screen and (orientation: landscape) {
+    /*.logo {
         width: 100px;
         height: auto;
-    }
+    }*/
     .content {
-        padding-top: 20%;
+        padding-top: 10%;
     }
 }
 
