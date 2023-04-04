@@ -66,7 +66,7 @@ a:hover {
 /* Media query for landscape mode on smaller screens */
 @media screen and (orientation: landscape) and (max-width: 767px) {
     .logo {
-        width: 100px;
+        width: 50px;
         height: auto;
     }
     .content {
