@@ -1,6 +1,7 @@
 body {
     background-color: #161616;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -26,12 +27,13 @@ a:hover {
     text-decoration: underline;
 }
 .logo {
-    position: absolute;
+    position: static;
     width: 400px;
     height: auto;
-    top: 20px;
+    margin-bottom: 20px;
+    /*top: 20px;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%);*/
 }
 .content {
     text-align: center;
