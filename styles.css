@@ -27,7 +27,7 @@ a:hover {
 }
 .logo {
     position: absolute;
-    width: 200px;
+    width: 400px;
     height: auto;
     top: 20px;
     left: 50%;
@@ -73,3 +73,12 @@ a:hover {
         padding-top: 20%;
     }
 }
+
+/* Media query for devices with a similar aspect ratio to the Galaxy Fold 3 in landscape mode */
+@media screen and (orientation: landscape) and (max-aspect-ratio: 8/5) {
+  .logo {
+    width: 100px; /* Adjust this value to the desired size */
+    height: auto;
+  }
+}
+
