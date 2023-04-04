@@ -27,7 +27,7 @@ a:hover {
 }
 .logo {
     position: absolute;
-    width: 400px;
+    width: 600px;
     height: auto;
     top: 20px;
     left: 50%;
@@ -42,7 +42,7 @@ a:hover {
 /* Media query for larger screens */
 @media screen and (min-width: 768px) {
     .logo {
-        width: 400px;
+        width: 600px;
         height: auto;
     }
 }
