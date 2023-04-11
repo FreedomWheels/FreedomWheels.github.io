@@ -190,7 +190,39 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 0 0 1em 0;
+	}
+
+	.offer {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 20px;
+	}
+
+	.contact-me {
+		/* display: flex;
+		justify-content: center;
+		align-items: center; */
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
+	.contact-me .fa-solid {
+		font-size: large;
+		margin: 10px;
+	}
+
+	.contact-me p {
+		text-align: center;
+		width: 100%;
+	}
+
+	.contact-me a {
+		background-color: #4281A4;
+		padding: 5px 30px;
+		width: 100%;
+		border-radius: 20px;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -2619,7 +2651,9 @@ input, select, textarea {
 		}
 
 			.image.fit img {
-				width: 100%;
+				width: 75%;
+				display: block;
+				margin: auto;				
 			}
 
 		.image.main {
@@ -3544,7 +3578,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #808A9F;
+		background: #A4BFEB;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3757,7 +3791,7 @@ input, select, textarea {
 			-ms-transition: color 0.2s ease;
 			transition: color 0.2s ease;
 			border: 0;
-			color: rgba(255, 255, 255, 0.35);
+			color: #FDFDBF;
 			display: block;
 			font-size: 0.6em;
 			font-weight: bold;
@@ -3785,10 +3819,10 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #161616, #fdfdbf);
-				background-image: -webkit-linear-gradient(to right, #161616, #fdfdbf);
-				background-image: -ms-linear-gradient(to right, #161616, #fdfdbf);
-				background-image: linear-gradient(to right, #161616, #fdfdbf);
+				background-image: -moz-linear-gradient(to right,#fdfdbf, #161616 );
+				background-image: -webkit-linear-gradient(to right,#fdfdbf, #161616);
+				background-image: -ms-linear-gradient(to right,#fdfdbf, #161616);
+				background-image: linear-gradient(to right,#fdfdbf, #161616);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3801,7 +3835,7 @@ input, select, textarea {
 			}
 
 			#sidebar nav a.active {
-				color: #fdfdbf;
+				color: #161616;
 			}
 
 				#sidebar nav a.active:after {
