@@ -152,7 +152,7 @@
 							<p>Feel free to reach out to us with any questions or inquiries! You can email us or call/text us at the number provided, and our team will be more than happy to assist you. We look forward to helping you on your journey to confident driving with Freedom Wheels.</p>
 							<div class="split style1">
 								<section>
-									<form method="post" action="form-handler.php">
+									<form method="get" action="form-handler.php">
 										<div class="fields">
 											<div class="field half">
 												<label for="name">Name</label>
@@ -169,7 +169,8 @@
 											<input type="hidden" name="submit" value="true">
 										</div>
 										<ul class="actions">
-											<li><a href="" class="button submit">Send Message</a></li>
+											<li><button type="submit" name="submit" value="true">Send Message</button>
+											</li>
 										</ul>
 									</form>
 								</section>

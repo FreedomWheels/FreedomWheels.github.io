@@ -1,9 +1,9 @@
 <?php
-if(isset($_POST['submit'])){
+if(isset($_GET['submit'])){
     $to = 'freedomwheelsdrivingschool@gmail.com';
     $subject = 'New message from website';
-    $message = $_POST['message'];
-    $headers = 'From: ' . $_POST['email'];
+    $message = $_GET['message'];
+    $headers = 'From: ' . $_GET['email'];
 
     mail($to, $subject, $message, $headers);
 
