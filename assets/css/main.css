@@ -250,7 +250,27 @@ input, select, textarea {
 	  #sidebar .custom.button {
 		font-size: 0.8em; /* Adjust the font size as needed */
 	}
+
+	.flhsmv-footer {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 1em;
+		flex-direction: column;
+		text-align: center;
+	}
 	
+	.flhsmv-footer img {
+		margin-bottom: 0.5em;
+		margin-top: 1;
+	}
+	
+	.flhsmv-footer p {
+		margin: 0;
+		text-align: center;
+	}
+
+  
 	
 	h1, h2, h3, h4, h5, h6 {
 		color: #C7E6EB;
