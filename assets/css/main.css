@@ -192,64 +192,68 @@ input, select, textarea {
 	p {
 		margin: 0 0 1em 0;
 	}
-	.offer {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		margin-bottom: 20px;
-	}
 
-	.contact-me {
-		text-align: center;
-		margin-bottom: 10px;
-	}
+/*  Start of My Code  */
+.offer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
 
-	.contact-me .fa-solid {
-		font-size: large;
-		margin: 10px;
-	}
+.contact-me {
+	text-align: center;
+	margin-bottom: 10px;
+}
 
-	.contact-me p {
-		text-align: center;
-		width: 100%;
-	}
+.contact-me .fa-solid {
+	font-size: large;
+	margin: 10px;
+}
 
-	.contact-me a {
-		background-color: #4281A4;
-		padding: 5px 30px;
-		width: 100%;
-		border-radius: 20px;
-	}
-	
-	.contact-me .custom.button {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		text-align: center;
-		line-height: 4rem; /* adjust this value to match the height of the container */
-	  }
-	  
-	.contact-me-sidebar {
-		display: flex;
-		flex-direction: row;
-		justify-content: center;
-		align-items: center;
-	  }
-	  .custom.button .fa-solid {
-		margin-right: 5px;
-	  }
-	  .custom.button .fa-solid:last-child {
-		margin-left: 5px;
-	  }
-	  
+.contact-me p {
+	text-align: center;
+	width: 100%;
+}
 
-	#sidebar::-webkit-scrollbar {
-		width: 0 !important;
-	  }
+.contact-me a {
+	background-color: #4281A4;
+	padding: 5px 30px;
+	width: 100%;
+	border-radius: 20px;
+}
 
-	  #sidebar .custom.button {
-		font-size: 0.8em; /* Adjust the font size as needed */
-	}
+.contact-me .custom.button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	line-height: 4rem; /* adjust this value to match the height of the container */
+  }
+  
+.contact-me-sidebar {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+  }
+  .custom.button .fa-solid {
+	margin-right: 5px;
+  }
+  .custom.button .fa-solid:last-child {
+	margin-left: 5px;
+  }
+  
+
+#sidebar::-webkit-scrollbar {
+	width: 0 !important;
+  }
+
+  #sidebar .custom.button {
+	font-size: 0.8em; /* Adjust the font size as needed */
+}
+ 
+	/* End of My Code */
 
 	.flhsmv-footer {
 		display: flex;
@@ -3971,6 +3975,54 @@ input, select, textarea {
 
 		}
 
+		/* @media screen and (max-width: 768px) {
+
+			#sidebar {
+				position: absolute;
+				top: 50px;
+				right: -200px;
+				width: 200px;
+				padding: 0;
+				background-color: #333333;
+				transition: all 0.3s ease;
+				z-index: 1000;
+			}
+		
+			#sidebar.show {
+				right: 0px;
+			}
+		
+			#sidebar ul {
+				list-style-type: none;
+				padding: 0;
+				margin: 0;
+			}
+		
+			#sidebar ul li {
+				font-size: 1.2em;
+				line-height: 50px;
+				margin-bottom: 0;
+				border-bottom: 1px solid #111111;
+			}
+		
+			#sidebar ul li:last-child {
+				border-bottom: none;
+			}
+		
+			#sidebar ul li a {
+				display: block;
+				padding: 0 20px;
+				color: #ffffff;
+				text-decoration: none;
+				font-size: 1.2em;
+				line-height: 50px;
+			}
+		
+			#sidebar ul li a:hover {
+				background-color: #111111;
+			}
+		} */
+		
 /* Intro */
 
 	#intro {
