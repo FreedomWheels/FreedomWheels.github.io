@@ -192,7 +192,6 @@ input, select, textarea {
 	p {
 		margin: 0 0 1em 0;
 	}
-
 	.offer {
 		display: flex;
 		justify-content: space-between;
@@ -201,9 +200,6 @@ input, select, textarea {
 	}
 
 	.contact-me {
-		/* display: flex;
-		justify-content: center;
-		align-items: center; */
 		text-align: center;
 		margin-bottom: 10px;
 	}
@@ -224,7 +220,38 @@ input, select, textarea {
 		width: 100%;
 		border-radius: 20px;
 	}
+	
+	.contact-me .custom.button {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		line-height: 4rem; /* adjust this value to match the height of the container */
+	  }
+	  
+	.contact-me-sidebar {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	  }
+	  .custom.button .fa-solid {
+		margin-right: 5px;
+	  }
+	  .custom.button .fa-solid:last-child {
+		margin-left: 5px;
+	  }
+	  
 
+	#sidebar::-webkit-scrollbar {
+		width: 0 !important;
+	  }
+
+	  #sidebar .custom.button {
+		font-size: 0.8em; /* Adjust the font size as needed */
+	}
+	
+	
 	h1, h2, h3, h4, h5, h6 {
 		color: #C7E6EB;
 		font-weight: bold;
@@ -1886,7 +1913,7 @@ input, select, textarea {
 		border: solid 1px !important;
 		border-color: rgba(255, 255, 255, 0.15) !important;
 		border-radius: 3em;
-		color: #ffffff !important;
+		color: #C7E6EB !important;
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.6em;
