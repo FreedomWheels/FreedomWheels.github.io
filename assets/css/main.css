@@ -4094,6 +4094,12 @@ input, select, textarea {
 	flex-wrap: wrap;
 }
 
+.freedom_gallery {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
 /* .person {
 	width: 50%;	
 	padding: 10px;
@@ -4107,8 +4113,26 @@ input, select, textarea {
 	width: 300px;
 	margin: 15px;
 }
+
 .instructors__image {
 	width: 100%;
+}
+
+.freedom__image {
+	width: 100%;
+}
+
+.images {
+	padding: 15px;
+	padding-top: 50px;
+	width: 50%;
+	border: solid 1px rgba(255, 255, 255, 0.15);
+	position: relative;
+	background-color: #5F9DBF;
+}
+
+.images h2 {
+	text-align: center;
 }
 
 .instructor-details {
@@ -4126,7 +4150,7 @@ input, select, textarea {
 	background-color: #5F9DBF;
 }
 
-.person h3, .person h4 {
+.person h2, .person h3, .person h4 {
 	/* margin-left: 35px; */
 	text-align: center;
 }
