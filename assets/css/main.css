@@ -117,7 +117,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #C7E6EB;
+		background: #4281a4;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -297,17 +297,21 @@ input, select, textarea {
 	font-size: 0.8em; /* Adjust the font size as needed */
 }
 
-
+.separator {
+    border-top: 1px solid #4281A4; /* This creates a line. */
+    width: 100%; /* This makes the line span the entire width of the parent element. */
+    margin: 20px 0; /* This adds some vertical space above and below the line. */
+}
  
 	/* End of My Code */
 
 	.flhsmv-footer {
 		display: flex;
-		align-items: center;
-		justify-content: center;
+		align-items: left;
+		justify-content: left;
 		margin: 1em;
 		flex-direction: column;
-		text-align: center;
+		text-align: left;
 	}
 	
 	.flhsmv-footer img {
@@ -317,7 +321,7 @@ input, select, textarea {
 	
 	.flhsmv-footer p {
 		margin: 0;
-		text-align: center;
+		text-align: left;
 	}
 
   
@@ -3391,7 +3395,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #4281A4;
+			background-color: #161616;
 		}
 
 		.wrapper.style1-alt {
